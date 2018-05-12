@@ -61,7 +61,7 @@ padding: 10px;
 .grid {
   display:none;
   margin: 0 auto;
-  width:900px;
+  width:90%;
   padding: 10px 50px 50px 50px;
   border-radius: 70px;
   border: 10px solid   #808080;
@@ -72,7 +72,7 @@ padding: 10px;
   background-color: #663399;
   display:none;
   margin: 0 auto;
-  width:900px;
+  width:90%;
   padding: 10px 50px 50px 50px;
   border-radius: 70px;
   border: 2px solid #cbcbcb;
@@ -134,7 +134,7 @@ padding: 10px;
   outline: 0pt;
   }
 
-/*#btn0::after, #btn1::after, #btn2::after, #btn3::after, #btn4::after {
+/*#btn0:after, #btn1:after, #btn2:after, #btn3:after, #btn4:after{
   content: "";
   background-color: #663399;
   width:300px;

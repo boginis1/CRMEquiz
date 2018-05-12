@@ -6,7 +6,7 @@ $(document).ready(function() {
     var triviaQandA = [{
             "question": "A hotel’s pricing strategy should consider:",
             "answers": ["A. Room type demand and length of stay", "B. Market Position", "C. Room Costs", "D. All of the above", "E. A and B Only"],
-            "correct": "D - All of the above",
+            "correct": "D. All of the above",
             "response": "All of those factors should be considered when creating a pricing strategy."
         },
         {
@@ -29,8 +29,8 @@ $(document).ready(function() {
         },
         {
             "question": " Which is a true statement about forecasting?",
-            "answers": ["A. Forecasting is a science.", "B. Revenue and demand forecasts are used for the same purpose.", "C. Forecasting must be done by market segment.", "D. Forecasting weather and other market conditions only apply to operational forecasts.", "E. None of the above"],
-            "correct": "C. Forecasting must be done by market segment.",
+            "answers": ["A. Forecasting is a science.", "B. Revenue and demand forecasts are used for the same purpose.", "C. Forecasting must be done by market segment", "D. Forecasting weather and other market conditions only apply to operational forecasts.", "E. None of the above"],
+            "correct": "C. Forecasting must be done by market segment",
             "response": "Forecasting must be done by the market segment is the only completely true statement."
         }
 
