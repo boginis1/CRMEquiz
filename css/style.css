@@ -1,0 +1,166 @@
+body {
+ 
+ background-color: #6B8E23;
+ color:white;
+ font-family: 'Roboto', sans-serif;
+}
+
+.header img {
+ margin: auto;
+ width:20%;
+ 
+}
+
+.header {
+ background-color: #6B8E23 ;
+ margin:auto;
+  width: 80%;
+ color: white;
+ font-size:15px;
+ text-align: center;
+ }
+#startGame {
+  background-color: white;
+  border-radius: 30px;
+  width:250px; 
+  height:50px;
+  font-size:30px;
+  margin:auto;
+  padding:20px;
+  color:#6B8E23;
+}
+#startGame:hover {
+  cursur: pointer;
+  background-color:   #808080;
+  color:white;
+  border: none;
+  outline: 0pt;
+  }
+ #timer {
+   text-align: center;
+   background-color: #663399;
+   margin:auto;
+   padding:10px;
+   width: 80%;
+   font-size: 30px:;
+   font-style: bold;
+   border-radius: 70px;
+ }
+
+#startTheGame {
+margin: 0 auto;
+background-color: #663399;
+border-radius: 40px;
+text-align: center;
+font-size: 30px;
+width: 80%;
+height:200px;
+padding: 10px;
+}
+
+.grid {
+  display:none;
+  margin: 0 auto;
+  width:900px;
+  padding: 10px 50px 50px 50px;
+  border-radius: 70px;
+  border: 10px solid   #808080;
+  box-shadow: 0 10 45 5   #808080;
+
+}
+#results {
+  background-color: #663399;
+  display:none;
+  margin: 0 auto;
+  width:900px;
+  padding: 10px 50px 50px 50px;
+  border-radius: 70px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 0 10 15 5 #cbcbcb;
+  font-size: 25px;
+}
+#resultsTwo {
+  background-color: ##808080;
+  display:none;
+  margin: 0 auto;
+  text-align: center;
+  width:900px;
+  padding: 10px 50px 50px 50px;
+  border-radius: 70px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 0 10 15 5 #cbcbcb;
+  font-size: 25px;
+}
+#response {
+  display:none;
+  margin: 0 auto;
+  width:900px;
+  padding: 10px 50px 50px 50px;
+  border-radius: 70px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 0 10 15 5 #cbcbcb;
+  font-size: 25px;
+}
+ #question{
+  font-size: 30px;
+  background-color: #6B8E23 ;
+   margin:auto;
+   height:100px;
+   padding:20px;
+   width: 100%;
+}
+.button {
+  
+  margin-top: 5px;
+  
+}
+
+#btn0, #btn1, #btn2, #btn3, #btn4{
+  background-color: #663399;
+  width:300px;
+  font-size: 30px;
+  color: #fff;
+  border: 1px solid #808080;
+  border-radius: 50px;
+  margin: 0 auto;
+  padding: 15px;
+  outline: 0pt; 
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover{
+  curser: pointer;
+  background-color: #808080;
+  border: none;
+  outline: 0pt;
+  }
+
+/*#btn0::after, #btn1::after, #btn2::after, #btn3::after, #btn4::after {
+  content: "";
+  background-color: #663399;
+  width:300px;
+  font-size: 30px;
+  color: #fff;
+  border: 1px solid #808080;
+  border-radius: 50px;
+  margin: 0 auto;
+  padding: 15px;
+  outline: 0pt; 
+}*/
+#progress {
+  color: white;
+  font-size: 20px;
+}
+
+
+.footer{
+   text-align: center;
+   background-color: #663399 ;
+   margin:auto;
+   height:100px;
+   width: 100%;
+   font-size: 20px:;
+ }
+
+  
+    
+ 
