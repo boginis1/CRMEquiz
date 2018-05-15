@@ -68,11 +68,12 @@ padding: 20px;
   box-shadow: 0 10 45 5   #808080;
 
 }
-#results {
+#resultsCorrect, #resultsIncorrect, #resultsTimedOut {
   background-color: #663399;
   display:none;
+  text-align: center;
   margin: 0 auto;
-  width:80%;
+  width:30%;
   padding: 10px 50px 50px 50px;
   border-radius: 70px;
   border: 2px solid #cbcbcb;
