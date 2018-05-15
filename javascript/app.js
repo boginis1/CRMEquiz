@@ -46,13 +46,13 @@ $(document).ready(function() {
 
     //Timer program
     var interValID;
-    var timeLeft = 20
+    var timeLeft = 25
     var counter = 0;
     var timer = $("#timer");
 
     function timeIt() {
         
-        timer.html("<h2>You have " + (timeLeft - counter) + " seconds left</h2>");
+        timer.html("<h3>You have " + (timeLeft - counter) + " seconds left</h3>");
         if (counter == timeLeft) {
             timer.html("<h2>Your time is up!</h2>");
             clearInterval(interValID);
@@ -147,7 +147,7 @@ $(document).ready(function() {
             } else  {
                 counter=0;
                 
-                setTimeout(getQuestion, 3000);
+                setTimeout(getQuestion, 4000);
 
             }
     }
