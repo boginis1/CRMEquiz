@@ -14,4 +14,3 @@ This is a simple application with a single html file, an app file in JavaScript 
 
 * **Holly Zoba** - [boginis1](https://github.com/Boginis1)
 
-
