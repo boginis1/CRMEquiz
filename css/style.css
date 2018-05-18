@@ -68,7 +68,22 @@ padding: 20px;
   box-shadow: 0 10 45 5   #808080;
 
 }
-#resultsCorrect, #resultsIncorrect, #resultsTimedOut {
+
+#scoreImg {
+    display: none;
+    text-align: center;
+    width: 50%;
+    background-color: #663399;
+    margin: 0 auto;
+    width:40%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 70px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 0 10 15 5 #cbcbcb;
+   font-size: 20px;
+}
+
+#resultsCorrect, #resultsIncorrect, #resultsTimedOut, #resultsPercent {
   background-color: #663399;
   display:none;
   text-align: center;
